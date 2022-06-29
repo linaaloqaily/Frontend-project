@@ -1,0 +1,12 @@
+.songCard{
+    margin: 3px;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+    padding-bottom: 8px;
+}
+.card{
+    width: 18rem;
+}
