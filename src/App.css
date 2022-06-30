@@ -1,3 +1,9 @@
 App{
   margin: 3px;
 }
+
+.cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

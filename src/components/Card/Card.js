@@ -5,28 +5,21 @@ import Carousel from '../Carousel/Carousel';
 
 function Card({song}) {
 
+  console.log(song ,"hi");
   return (
     <>
       <br/>
-      
-      <div className="container">
-          <h3 className="text-center">Enjoy with us and listen to your favorite song</h3>
-          <hr/>
-          <br/>
+ 
+      <div className="card">
+        <a href={song.result.url}>
+          <img src={song.result.song_art_image_url} alt='img1' width="100%" height="100%" />
+          <div className="card-body">
+          </div>
+          </a>
+          <h5> {song.result.title}</h5>
+
       </div>
-      <div className="songCard row">
-      <div className="col">
-          <div className="card">
-              <img src={song.img} alt='img1' />
-              <audio src={song.src.id} />
-              <div className="card-body">
-              <h5 className="card-title">{song.name}</h5>
-                <p className="card-text">{song.uNm}</p>
-              </div>
-            </div>
-      </div>      
-      </div>
-   
+
   </>
     
   )

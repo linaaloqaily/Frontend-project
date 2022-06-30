@@ -1,12 +1,11 @@
-.songCard{
-    margin: 3px;
-    padding: 1px;
-    justify-content: center;
-    align-items: center;
-}
-.col{
-    padding-bottom: 8px;
-}
 .card{
-    width: 18rem;
+    width: 15rem;
+    margin: 10px;
+    padding: 3px;
+    text-align: center;
+    transition: 0.4s ease;
+}
+
+.card:hover{
+    transform: scale(1.1) perspective(1px) ;
 }
